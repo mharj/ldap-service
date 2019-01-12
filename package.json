@@ -1,0 +1,40 @@
+{
+  "name": "ldap-service",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mharj/ldap-service.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mharj/ldap-service/issues"
+  },
+  "homepage": "https://github.com/mharj/ldap-service#readme",
+  "dependencies": {
+    "encoding-down": "^4.0.0",
+    "ldapjs": "^1.0.2",
+    "leveldown": "^3.0.0",
+    "levelup": "^2.0.2",
+    "moment": "^2.21.0",
+    "uuid": "^3.2.1"
+  },
+  "prettier": {
+    "useTabs": true,
+    "singleQuote": true,
+    "bracketSpacing": false,
+    "arrowParens": "always",
+    "semi": true,
+    "trailingComma": "all",
+    "printWidth": 160
+  },
+  "devDependencies": {
+    "eslint-config-google": "^0.9.1",
+    "mocha": "^5.0.2"
+  }
+}
